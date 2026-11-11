@@ -1,0 +1,12 @@
+{
+  "name": "listings-pipeline-demo",
+  "private": true,
+  "description": "Demo project for Understand: scrape -> clean -> analyze -> ingest -> serve",
+  "scripts": {
+    "start": "node server/server.js",
+    "pipeline": "python3 pipeline/run.py"
+  },
+  "dependencies": {
+    "express": "^5.0.0"
+  }
+}

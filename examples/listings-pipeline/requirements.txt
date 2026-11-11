@@ -1,0 +1,2 @@
+# optional: the scraper falls back to regex parsing without it
+beautifulsoup4>=4.12
